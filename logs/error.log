@@ -1,0 +1,1171 @@
+2023-05-06 09:45:20:4520 [31merror[39m: [31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\application.js:217:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:6:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 09:47:16:4716 [31merror[39m: [31muncaughtException: a is not defined[39m
+[31mReferenceError: a is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:14:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 09:47:20:4720 [31merror[39m: [31muncaughtException: Cannot read properties of undefined (reading 'length')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'length')[39m
+[31m    at pathtoRegexp (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\path-to-regexp\index.js:63:49)[39m
+[31m    at new Layer (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:45:17)[39m
+[31m    at Function.route (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:505:15)[39m
+[31m    at Function.app.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\application.js:498:30)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:14:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:47:49:4749 [31merror[39m: [31muncaughtException: cons is not defined[39m
+[31mReferenceError: cons is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 09:47:59:4759 [31merror[39m: [31muncaughtException: req is not defined[39m
+[31mReferenceError: req is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 09:48:02:482 [31merror[39m: [31muncaughtException: The argument 'id' must be a non-empty string. Received ''[39m
+[31mTypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''[39m
+[31m    at new NodeError (node:internal/errors:371:5)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1000:11)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+2023-05-06 09:48:09:489 [31merror[39m: [31muncaughtException: Cannot find module './utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './utils/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:13:4813 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:21:4821 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:22:4822 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:24:4824 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:27:4827 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:28:4828 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:48:30:4830 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:52:52:5252 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:371:5)[39m
+[31m    at validateString (node:internal/validators:120:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:998:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:00:530 [31merror[39m: [31muncaughtException: Cannot find module './routers'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './routers'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:01:531 [31merror[39m: [31muncaughtException: Cannot find module './routers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './routers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:02:532 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:08:538 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:31:5331 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:53:35:5335 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:55:06:556 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:55:07:557 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:55:36:5536 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:55:54:5554 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:57:49:5749 [31merror[39m: [31muncaughtException: Cannot find module 'bcrypt'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'bcrypt'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:3:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:57:52:5752 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:57:54:5754 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:57:59:5759 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:58:04:584 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:58:08:588 [31merror[39m: [31muncaughtException: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'joi'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:59:23:5923 [31merror[39m: [31muncaughtException: Cannot find module 'bcrypt'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'bcrypt'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:3:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 09:59:52:5952 [31merror[39m: [31muncaughtException: Cannot access 'userModel' before initialization[39m
+[31mReferenceError: Cannot access 'userModel' before initialization[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:51:42)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 10:26:07:267 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:371:5)[39m
+[31m    at validateString (node:internal/validators:120:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:998:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:7:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 10:26:14:2614 [31merror[39m: [31muncaughtException: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:7:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 10:26:49:2649 [31merror[39m: [31m/api/v2/signup not found on this server[39m
+2023-05-06 10:40:03:403 [31merror[39m: [31m/api/v2/auth/signu not found on this server[39m
+2023-05-06 10:42:09:429 [31merror[39m: [31muncaughtException: Cannot find module './controlle'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './controlle'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:7:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 10:42:16:4216 [31merror[39m: [31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\application.js:217:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:24:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 10:42:21:4221 [31merror[39m: [31muncaughtException: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './controllers/'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:7:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-06 10:45:39:4539 [31merror[39m: [31m/api/v2/auth/signu not found on this server[39m
+2023-05-06 11:05:22:522 [31merror[39m: [31m/api/v2/auth/signu not found on this server[39m
+2023-05-06 11:07:06:76 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:14[39m
+[31m        return next9new appError(error.message, 400)[39m
+[31m                        ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:59)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:07:07:77 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:14[39m
+[31m        return next9new appError(error.message, 400)[39m
+[31m                        ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:59)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:07:08:78 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:14[39m
+[31m        return next(new appError(error.message, 400)[39m
+[31m                                                   ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:59)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:13:24:1324 [31merror[39m: [31muncaughtException: await is only valid in async functions and the top level bodies of modules[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\validator.js:10[39m
+[31m        await schema.validateAsync(payload)[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: await is only valid in async functions and the top level bodies of modules[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:59)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:15:56:1556 [31merror[39m: [31muncaughtException: Unexpected token 'try'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:14[39m
+[31m    try {[39m
+[31m    ^^^[39m
+
+[31mSyntaxError: Unexpected token 'try'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:15:56:1556 [31merror[39m: [31muncaughtException: Missing initializer in destructuring declaration[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12[39m
+[31m    const {}[39m
+[31m          ^^[39m
+
+[31mSyntaxError: Missing initializer in destructuring declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:07:167 [31merror[39m: [31muncaughtException: Missing initializer in destructuring declaration[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12[39m
+[31m    const {email, password, firstname, lastname}[39m
+[31m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in destructuring declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:09:169 [31merror[39m: [31muncaughtException: Missing initializer in destructuring declaration[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12[39m
+[31m    const {email, password, firstname, lastname, role}[39m
+[31m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in destructuring declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:24:1624 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:16[39m
+[31m        if()[39m
+[31m           ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:25:1625 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:16[39m
+[31m        if(!)[39m
+[31m            ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:28:1628 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:16[39m
+[31m        if(!())[39m
+[31m             ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:31:1631 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:32:1632 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:41:1641 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:46:1646 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:48:1648 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:51:1651 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:16:55:1655 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:18[39m
+[31m        const oldUser = await Users.findOne({email: body.email})[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:17:09:179 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:17[39m
+[31m            return next(new )[39m
+[31m                            ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:18:43:1843 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-06 11:18:43:1843 [31merror[39m: [31m{[39m
+[31m  REASON: TypeError: Cannot destructure property 'email' of 'body' as it is undefined.[39m
+[31m      at exports.signup (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12:13)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:144:13)[39m
+[31m      at Route.dispatch (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:114:3)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:284:15[39m
+[31m      at Function.process_params (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:346:12)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:280:10)[39m
+[31m      at Function.handle (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:175:3)[39m
+[31m      at router (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:47:12)[39m
+[31m}[39m
+2023-05-06 11:20:35:2035 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-06 11:20:35:2035 [31merror[39m: [31m{[39m
+[31m  REASON: TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m      at exports.signup (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:10:13)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:144:13)[39m
+[31m      at Route.dispatch (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:114:3)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:284:15[39m
+[31m      at Function.process_params (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:346:12)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:280:10)[39m
+[31m      at Function.handle (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:175:3)[39m
+[31m      at router (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:47:12)[39m
+[31m}[39m
+2023-05-06 11:26:53:2653 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:11[39m
+[31m    console.log('Req body': );[39m
+[31m                ^^^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:27:17:2717 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-06 11:27:17:2717 [31merror[39m: [31m{[39m
+[31m  REASON: TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.[39m
+[31m      at exports.signup (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12:13)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:144:13)[39m
+[31m      at Route.dispatch (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:114:3)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:284:15[39m
+[31m      at Function.process_params (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:346:12)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:280:10)[39m
+[31m      at Function.handle (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:175:3)[39m
+[31m      at router (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:47:12)[39m
+[31m}[39m
+2023-05-06 11:27:54:2754 [31merror[39m: [31muncaughtException: bo is not defined[39m
+[31mReferenceError: bo is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:9:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 11:28:06:286 [31merror[39m: [31muncaughtException: bo is not defined[39m
+[31mReferenceError: bo is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:10:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-06 11:28:11:2811 [31merror[39m: [31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\application.js:217:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:10:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 11:30:04:304 [31merror[39m: [31muncaughtException: Unexpected token '?'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:12[39m
+[31m    const { email, password, firstname, lastname, role? } = req.body[39m
+[31m                                                      ^[39m
+
+[31mSyntaxError: Unexpected token '?'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 14:21:22:2122 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:15[39m
+[31m            throw new appError('Please provide sign up details in full', 401))[39m
+[31m                                                                             ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 14:21:35:2135 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:28[39m
+[31m        return next(new appError('Unable to register user', 500)[39m
+[31m                                                               ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 14:22:23:2223 [31merror[39m: [31mUnable to register user[39m
+2023-05-06 14:23:01:231 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:28[39m
+[31m        return new appError('Unable to register user', 500))[39m
+[31m                                                           ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routers\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-06 14:24:16:2416 [31merror[39m: [31mUnable to register user[39m
+2023-05-06 14:25:29:2529 [31merror[39m: [31mUnable to register user[39m
