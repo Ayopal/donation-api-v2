@@ -326,3 +326,498 @@
 2023-05-06 14:25:29:2529 [31merror[39m: [31mUnable to register user[39m
 2023-05-06 14:25:29:2529 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 467 - 523.669 ms[39m
 [35m[39m
+2023-05-07 20:56:46:5646 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 20:56:49:5649 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 20:57:34:5734 [31merror[39m: [31mUnable to register user[39m
+2023-05-07 20:57:35:5735 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 467 - 286.343 ms[39m
+[35m[39m
+2023-05-07 20:58:25:5825 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-07 20:58:25:5825 [31merror[39m: [31m{[39m
+[31m  REASON: TypeError: user.createJwt is not a function[39m
+[31m      at exports.createSendToken (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:4:30)[39m
+[31m      at exports.signup (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:24:9)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m}[39m
+2023-05-07 20:59:35:5935 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 20:59:38:5938 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 20:59:44:5944 [31merror[39m: [31mUnable to register user[39m
+2023-05-07 20:59:44:5944 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 467 - 296.462 ms[39m
+[35m[39m
+2023-05-07 21:00:24:024 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:00:27:027 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:00:33:033 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:00:35:035 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:00:40:040 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-07 21:00:40:040 [31merror[39m: [31m{[39m
+[31m  REASON: ReferenceError: jwt is not defined[39m
+[31m      at model.userSchema.methods.createJWT (C:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:46:5)[39m
+[31m      at exports.createSendToken (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:4:30)[39m
+[31m      at exports.signup (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:26:9)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+[31m}[39m
+2023-05-07 21:01:34:134 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:01:38:138 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:01:40:140 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:01:46:146 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 1023.181 ms[39m
+[35m[39m
+2023-05-07 21:02:17:217 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:02:19:219 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:09:02:92 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:09:04:94 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:09:10:910 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:09:13:913 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:09:16:916 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:09:20:920 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:09:23:923 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:10:14:1014 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:10:17:1017 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:10:51:1051 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:10:54:1054 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:12:1212 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:15:1215 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:17:1217 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:20:1220 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:23:1223 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:26:1226 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:27:1227 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:30:1230 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:33:1233 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:36:1236 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:42:1242 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:46:1246 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:49:1249 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:12:52:1252 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:12:54:1254 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:13:03:133 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:13:06:136 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:13:09:139 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:13:24:1324 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-07 21:13:27:1327 [32minfo[39m: [32mDB Connected![39m
+2023-05-07 21:18:45:1845 [31merror[39m: [31mUnable to register user[39m
+2023-05-07 21:18:45:1845 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 467 - 631.470 ms[39m
+[35m[39m
+2023-05-08 07:24:21:2421 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 07:24:25:2425 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:23:09:239 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:23:12:2312 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:23:15:2315 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:23:18:2318 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:23:20:2320 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:23:28:2328 [31merror[39m: [31mUnable to register user[39m
+2023-05-08 08:23:28:2328 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 467 - 291.914 ms[39m
+[35m[39m
+2023-05-08 08:24:40:2440 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:24:43:2443 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:24:45:2445 [31merror[39m: [31mPlease provide sign up details in full[39m
+2023-05-08 08:24:45:2445 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 401 495 - 284.447 ms[39m
+[35m[39m
+2023-05-08 08:25:20:2520 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:25:22:2522 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:25:35:2535 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:25:38:2538 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:25:41:2541 [31merror[39m: [31mPlease provide sign up details in full[39m
+2023-05-08 08:25:41:2541 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 497 - 269.597 ms[39m
+[35m[39m
+2023-05-08 08:26:27:2627 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 954.734 ms[39m
+[35m[39m
+2023-05-08 08:27:23:2723 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:27:26:2726 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:27:58:2758 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 965.462 ms[39m
+[35m[39m
+2023-05-08 08:28:17:2817 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:28:21:2821 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:28:24:2824 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:28:27:2827 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:28:30:2830 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:38:22:3822 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:38:23:3823 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:38:29:3829 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:38:32:3832 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:38:35:3835 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:38:38:3838 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 947.253 ms[39m
+[35m[39m
+2023-05-08 08:39:24:3924 [31merror[39m: [31mIncorrect Admin Code![39m
+2023-05-08 08:39:24:3924 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 463 - 521.703 ms[39m
+[35m[39m
+2023-05-08 08:39:39:3939 [31merror[39m: [31mIncorrect Admin Code![39m
+2023-05-08 08:39:39:3939 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 463 - 516.382 ms[39m
+[35m[39m
+2023-05-08 08:40:46:4046 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:40:49:4049 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:41:16:4116 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:41:18:4118 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:41:20:4120 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:41:23:4123 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:41:27:4127 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:41:30:4130 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:41:32:4132 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:43:37:4337 [31merror[39m: [31mIncorrect Admin Code![39m
+2023-05-08 08:43:37:4337 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 463 - 477.302 ms[39m
+[35m[39m
+2023-05-08 08:44:05:445 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:44:09:449 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:44:11:4411 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:44:15:4415 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:44:18:4418 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:44:26:4426 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:44:29:4429 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:44:33:4433 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 982.063 ms[39m
+[35m[39m
+2023-05-08 08:48:08:488 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:48:14:4814 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:48:23:4823 [31merror[39m: [31mIncorrect Admin Code![39m
+2023-05-08 08:48:23:4823 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 463 - 480.842 ms[39m
+[35m[39m
+2023-05-08 08:53:03:533 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:53:06:536 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:53:22:5322 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:53:24:5324 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:53:50:5350 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:15:5415 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:23:5423 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:25:5425 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:54:34:5434 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:36:5436 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:54:43:5443 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:46:5446 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:49:5449 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:54:51:5451 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:54:53:5453 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:54:59:5459 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:55:02:552 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 08:55:06:556 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:55:09:559 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 08:55:12:5512 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:02:06:26 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:09:29 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:02:21:221 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:23:223 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:02:26:226 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:28:228 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:30:230 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:34:234 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:37:237 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:02:50:250 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:52:252 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:02:55:255 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:03:25:325 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:03:28:328 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:03:31:331 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:03:33:333 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:03:36:336 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:03:40:340 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:03:45:345 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:03:47:347 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:06:09:69 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:06:15:615 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:06:17:617 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:07:07:77 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:09:79 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:07:18:718 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:21:721 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:24:724 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:07:31:731 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:34:734 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:36:736 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:39:739 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:41:741 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:07:49:749 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:07:51:751 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:11:12:1112 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:11:15:1115 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:11:49:1149 [31merror[39m: [31mIncorrect Admin Code![39m
+2023-05-08 09:11:49:1149 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 400 461 - 273.149 ms[39m
+[35m[39m
+2023-05-08 09:12:02:122 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 691.724 ms[39m
+[35m[39m
+2023-05-08 09:12:30:1230 [31merror[39m: [31mUser already exists. Please login[39m
+2023-05-08 09:12:30:1230 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 409 485 - 266.755 ms[39m
+[35m[39m
+2023-05-08 09:12:55:1255 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:12:58:1258 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:13:02:132 [31merror[39m: [31mE11000 duplicate key error collection: donation-v2.users index: email_1 dup key: { email: "testing@gmail.com" }[39m
+2023-05-08 09:13:02:132 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 646 - 474.905 ms[39m
+[35m[39m
+2023-05-08 09:13:44:1344 [31merror[39m: [31mE11000 duplicate key error collection: donation-v2.users index: email_1 dup key: { email: "testing@gmail.com" }[39m
+2023-05-08 09:13:44:1344 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 500 647 - 367.920 ms[39m
+[35m[39m
+2023-05-08 09:15:06:156 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:15:08:158 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:15:11:1511 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:15:13:1513 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:15:53:1553 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:15:55:1555 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:16:39:1639 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:16:41:1641 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:16:44:1644 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:16:46:1646 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:16:58:1658 [31merror[39m: [31muser validation failed: lastname: Path `lastname` is required.[39m
+2023-05-08 09:18:06:186 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:18:09:189 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:18:10:1810 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:18:13:1813 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:18:23:1823 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:18:25:1825 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:18:28:1828 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:18:30:1830 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:18:33:1833 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:18:40:1840 [31merror[39m: [31muser validation failed: lastname: Path `lastname` is required.[39m
+2023-05-08 09:19:12:1912 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:14:1914 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:19:18:1918 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:20:1920 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:19:22:1922 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:25:1925 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:19:29:1929 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:33:1933 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:35:1935 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:19:38:1938 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:19:41:1941 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:20:02:202 [31merror[39m: [31mPlease provide full sign up details[39m
+2023-05-08 09:21:01:211 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:21:04:214 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:21:06:216 [31merror[39m: [31mPlease provide full sign up details[39m
+2023-05-08 09:21:06:216 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 401 488 - 272.838 ms[39m
+[35m[39m
+2023-05-08 09:21:47:2147 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:21:50:2150 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:21:54:2154 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:21:56:2156 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:21:58:2158 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:22:00:220 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:22:16:2216 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:22:19:2219 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:23:18:2318 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:23:21:2321 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:23:24:2324 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:23:28:2328 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:23:30:2330 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:24:39:2439 [31merror[39m: [31mParameter "filter" to findOne() must be an object, got testing@gmail.com[39m
+2023-05-08 09:24:39:2439 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 500 568 - 15.263 ms[39m
+[35m[39m
+2023-05-08 09:24:56:2456 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:24:58:2458 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:25:05:255 [31merror[39m: [31mUser not found. Please Sign up![39m
+2023-05-08 09:25:05:255 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 401 479 - 292.180 ms[39m
+[35m[39m
+2023-05-08 09:25:22:2522 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:25:24:2524 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:25:39:2539 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:25:42:2542 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:25:43:2543 [31merror[39m: [31mPlease provide full sign up details[39m
+2023-05-08 09:25:43:2543 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 401 1596 - 7.845 ms[39m
+[35m[39m
+2023-05-08 09:25:56:2556 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 361 - 690.389 ms[39m
+[35m[39m
+2023-05-08 09:26:02:262 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 201 361 - 268.646 ms[39m
+[35m[39m
+2023-05-08 09:27:01:271 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:05:275 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:27:08:278 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:10:2710 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:27:16:2716 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:18:2718 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:27:27:2727 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:30:2730 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:32:2732 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:27:36:2736 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:27:38:2738 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:28:36:2836 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:28:39:2839 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:28:51:2851 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:28:53:2853 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:28:55:2855 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:28:58:2858 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:00:290 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:03:293 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:08:298 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:10:2910 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:19:2919 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:22:2922 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:24:2924 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:26:2926 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:29:2929 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:39:2939 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:43:2943 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:45:2945 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:29:52:2952 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:29:55:2955 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:30:55:3055 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:30:58:3058 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:02:312 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:31:05:315 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:07:317 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:31:10:3110 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:12:3112 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:31:15:3115 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:21:3121 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:31:23:3123 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:30:3130 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:31:32:3132 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:31:50:3150 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 201 361 - 296.820 ms[39m
+[35m[39m
+2023-05-08 09:31:56:3156 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 201 361 - 254.652 ms[39m
+[35m[39m
+2023-05-08 09:32:09:329 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:32:12:3212 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:32:14:3214 [31merror[39m: [31mEmail or Password incorrect[39m
+2023-05-08 09:32:14:3214 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 401 397 - 2796.060 ms[39m
+[35m[39m
+2023-05-08 09:32:23:3223 [35mhttp[39m: [35m::1 GET /api/v2/auth/login 201 361 - 374.018 ms[39m
+[35m[39m
+2023-05-08 09:33:19:3319 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:33:22:3322 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:33:52:3352 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:33:56:3356 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:33:59:3359 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:04:344 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:06:346 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:10:3410 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:13:3413 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:16:3416 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:19:3419 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:22:3422 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:25:3425 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:29:3429 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:32:3432 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:36:3436 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:39:3439 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:34:47:3447 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:50:3450 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:52:3452 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:34:54:3454 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:36:06:366 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:36:09:369 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:36:29:3629 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:36:31:3631 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:36:43:3643 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:36:47:3647 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:36:50:3650 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:37:27:3727 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:29:3729 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:32:3732 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:37:33:3733 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:37:3737 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:39:3739 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:37:44:3744 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:46:3746 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:37:52:3752 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:37:55:3755 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:38:00:380 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:38:02:382 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:38:04:384 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:38:06:386 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:38:09:389 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:38:59:3859 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:39:02:392 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:39:04:394 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:39:06:396 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:39:27:3927 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:39:29:3929 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:44:10:4410 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:13:4413 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:44:30:4430 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:32:4432 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:35:4435 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:37:4437 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:44:42:4442 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:44:4444 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:47:4447 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:50:4450 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:44:53:4453 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:44:55:4455 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:44:58:4458 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:00:450 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:02:452 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:05:455 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:08:458 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:10:4510 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:12:4512 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:16:4516 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:18:4518 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:21:4521 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:24:4524 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:32:4532 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:35:4535 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:37:4537 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:39:4539 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:42:4542 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:45:44:4544 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:45:56:4556 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:01:461 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:04:464 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:07:467 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:13:4613 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:15:4615 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:21:4621 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:23:4623 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:25:4625 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:28:4628 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:32:4632 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:34:4634 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:39:4639 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:42:4642 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:44:4644 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:46:48:4648 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:53:4653 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:56:4656 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:46:58:4658 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:47:02:472 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:47:04:474 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:47:08:478 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:47:12:4712 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:47:15:4715 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:47:18:4718 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:49:52:4952 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:49:55:4955 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:49:58:4958 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:50:01:501 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:04:504 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:06:506 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:50:19:5019 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:22:5022 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:50:26:5026 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:29:5029 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:50:38:5038 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:40:5040 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:50:45:5045 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:50:5050 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:50:53:5053 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:51:08:518 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:51:11:5111 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:51:19:5119 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:51:21:5121 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:54:11:5411 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:54:14:5414 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:54:36:5436 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:54:42:5442 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:54:45:5445 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:54:46:5446 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:54:49:5449 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:54:51:5451 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:54:53:5453 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:55:08:558 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:09:559 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:12:5512 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:55:16:5516 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:18:5518 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:20:5520 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:55:29:5529 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:40:5540 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:43:5543 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:46:5546 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:55:49:5549 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:53:5553 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:55:55:5555 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:55:59:5559 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:56:02:562 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:56:11:5611 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:56:13:5613 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:56:52:5652 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:56:55:5655 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 09:57:01:571 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 09:57:04:574 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 20:41:08:418 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 20:41:21:4121 [32minfo[39m: [32mDB Connected![39m
+2023-05-08 20:41:45:4145 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-08 20:41:56:4156 [32minfo[39m: [32mserver listening on port 4040...[39m

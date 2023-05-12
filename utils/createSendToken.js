@@ -1,7 +1,7 @@
 //CREATE FUNCTION THAT HANDLES TOKEN RESPONSE & COOKIE RESPONSE
 exports.createSendToken = async (user, statusCode, res) => {
     // CREATE JWT WITH MODEL INSTANCE
-    const token = await user.createJwt();
+    const token = await user.createJWT();
     const cookieOptions = {
         expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
         httpOnly: true,
