@@ -2,10 +2,7 @@ const app = require('./app')
 require('dotenv').config()
 const PORT = process.env.PORT
 const logger = require('./utils/logger')
-const connectDB = require('./models/db')
 
-// CONNECT TO DB
-connectDB()
 
 // UNCAUGHT EXCEPTION
 process.on('uncaughtException', (error, origin) => {

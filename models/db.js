@@ -3,7 +3,7 @@ require('dotenv').config()
 const appError = require('../utils/appError')
 const logger = require('../utils/logger')
 
-const url = process.env.MONGO_URL
+const url = process.env.NODE_ENV === 'production'? process.env.MONGO_URL : process.env.DEV_MONGO_URL
 
 const connectDB = async () => {
     try {
@@ -14,4 +14,10 @@ const connectDB = async () => {
     }
 }
 
-module.exports = connectDB
+const db = {
+    init: () => {
+        connectDB()
+    }
+}
+
+module.exports = db
