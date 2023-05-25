@@ -1,14 +1,15 @@
-const jwt = require('jsonwebtoken')
 const appError = require('../utils/appError')
 const Users = require('../models/userModel')
 const { createSendToken } = require('../utils/createSendToken')
 const { createPasswdResetToken } = require('../utils/tokens')
-
+const Email = require('../utils/emails')
+require('dotenv').config()
+const crypto = require('crypto')
 
 
 exports.signup = async (req, res, next) => {
 
-    // await Users.deleteMany()
+    await Users.deleteMany()
 
     const { email, password, firstname, lastname, role, adminCode } = req.body
 
@@ -28,6 +29,10 @@ exports.signup = async (req, res, next) => {
         }
 
         const user = await Users.create(req.body)
+
+        // SEND WELCOME MAIL
+        let url = process.env.WELCOMEURL
+        // await new Email(user, url).sendWelcome()
 
         createSendToken(user, 201, res)
 
@@ -60,6 +65,7 @@ exports.login = async (req, res, next) => {
 
 exports.forgotPassword = async (req, res, next) => {
     const { email } = req.body
+
     try {
 
         const user = await Users.findOne({ email });
@@ -67,10 +73,69 @@ exports.forgotPassword = async (req, res, next) => {
 
         const { resetToken, passwordToken, passwordResetExpiry } = createPasswdResetToken()
 
-        // TODO: SEND MAIL TO USER TO RESET PASSWORD
+        user.passwordToken = passwordToken;
+        user.passwordResetExpiry = passwordResetExpiry;
+
+        await user.save()
+
+        //SEND MAIL TO USER TO RESET PASSWORD
+        const resetUrl = `${req.protocol}://${req.get(
+            "host"
+        )}/api/v2/auth/resetpassword/${resetToken}`;
+
+        //5. SEND EMAIL TO CLIENT
+        await new Email(user, resetUrl).sendPasswordReset();
+
+        //6. SEND JSON RESPONSE
+        res.status(200).json({
+            status: "success",
+            message: `Token sent to mail ${resetUrl}`,
+        });
 
     } catch (error) {
         return next(new appError(error.message, error.statusCode))
     }
 
+}
+
+//RESET PASSWORD
+exports.resetPassword = async (req, res, next) => {
+    //1. CREATE A HASHED TOKEN FROM THE REQ PARAMS
+    const hashedToken = crypto
+        .createHash("sha256")
+        .update(req.params.token)
+        .digest("hex");
+        
+    try {
+
+        const user = await Users.findOne({
+            passwordToken: hashedToken,
+            passwordResetExpiry: { $gte: Date.now() }
+        })
+
+        if (!user) throw new appError('Expired or Invalid Token! Please try again', 403)
+
+        const password = req.body.password;
+        const confirmPassword = req.body.confirmPassword;
+
+        if(!(password === confirmPassword)){
+            throw new appError('Password and ConfirmPassword must be same', 403)
+        }
+
+        user.password = password;
+        user.passwordToken = null;
+        user.passwordResetExpiry = null;
+
+        await user.save();
+
+        const url = `${req.protocol}://${req.get("host")}/api/v1/auth/login`;
+        // SEND SUCCESS MAIL TO CLIENT
+        await new Email(user, url).sendVerifiedPSWD();
+
+        // LOG IN USER AND SEND JWT
+        createSendToken(user, 200, res);
+
+    } catch (error) {
+        return next(new appError(error.message, error.statusCode))
+    }
 }

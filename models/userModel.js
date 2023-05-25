@@ -25,6 +25,8 @@ const userSchema = new Schema({
         type: String,
         default: 'donor'
     },
+    passwordToken: String,
+    passwordResetExpiry:  Date,
     donation: [
         {
             type: mongoose.Types.ObjectId,

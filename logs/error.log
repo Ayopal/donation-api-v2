@@ -2412,3 +2412,1534 @@
 [31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:1)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-23 22:24:22:2422 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:29:11:2911 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:31:42:3142 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:32:19:3219 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:32:55:3255 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:33:35:3335 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:17:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:33:41:3341 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:35:37:3537 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:16:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:35:40:3540 [31merror[39m: [31muncaughtException: The "id" argument must be of type string. Received undefined[39m
+[31mTypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined[39m
+[31m    at new NodeError (node:internal/errors:371:5)[39m
+[31m    at validateString (node:internal/validators:120:11)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:998:3)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:6:1)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+2023-05-23 22:35:44:3544 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:16:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:35:47:3547 [31merror[39m: [31muncaughtException: Parameter "key" is required[39m
+[31mError: Parameter "key" is required[39m
+[31m    at new _ (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:8309)[39m
+[31m    at e.client (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun.js\mailgun.node.js:2:33909)[39m
+[31m    at transport (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\nodemailer-mailgun-transport\src\index.js:146:28)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:16:44)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-23 22:47:56:4756 [31merror[39m: [31mClass constructor Email cannot be invoked without 'new'[39m
+2023-05-23 22:48:43:4843 [31merror[39m: [31muncaughtException: Unexpected token 'if'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:20[39m
+[31m        if (!(email && password && firstname && lastname)) {[39m
+[31m        ^^[39m
+
+[31mSyntaxError: Unexpected token 'if'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-23 22:48:47:4847 [31merror[39m: [31muncaughtException: Unexpected token '{'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:20[39m
+[31m        if (!(email && password && firstname && lastname)) {[39m
+[31m                                                           ^[39m
+
+[31mSyntaxError: Unexpected token '{'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-23 22:49:33:4933 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 22:56:58:5658 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 22:59:29:5929 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:08:44:844 [31merror[39m: [31mUser already exists. Please login[39m
+2023-05-23 23:11:43:1143 [31merror[39m: [31mUser already exists. Please login[39m
+2023-05-23 23:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:41:41:4141 [31merror[39m: [31muncaughtException: Unexpected token 'var'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:17[39m
+[31mvar transport = nodemailer.createTransport(mailGun(mailgunAuth))[39m
+[31m^^^[39m
+
+[31mSyntaxError: Unexpected token 'var'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-23 23:42:40:4240 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:44:13:4413 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:45:28:4528 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:47:02:472 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:50:53:5053 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:52:59:5259 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:67[39m
+[31mmodule.exports = Email[39m
+[31m                      [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-23 23:54:24:5424 [31merror[39m: [31mUnauthorized[39m
+2023-05-23 23:57:47:5747 [31merror[39m: [31mUnauthorized[39m
+2023-05-24 00:05:03:53 [31merror[39m: [31mUnauthorized[39m
+2023-05-25 06:42:26:4226 [31merror[39m: [31mUnauthorized[39m
+2023-05-25 06:48:15:4815 [31merror[39m: [31mUnauthorized[39m
+2023-05-25 06:49:03:493 [31merror[39m: [31mUnauthorized[39m
+2023-05-25 06:54:41:5441 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:44[39m
+[31m            from: ,[39m
+[31m                  ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 06:54:47:5447 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:45[39m
+[31m            from: ,[39m
+[31m                  ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 06:54:50:5450 [31merror[39m: [31muncaughtException: Unexpected token ','[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:45[39m
+[31m            from: ,[39m
+[31m                  ^[39m
+
+[31mSyntaxError: Unexpected token ','[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 09:45:38:4538 [31merror[39m: [31merr is not defined[39m
+2023-05-25 09:51:48:5148 [31merror[39m: [31msource.on is not a function[39m
+2023-05-25 09:57:02:572 [31merror[39m: [31mmg.messages is not a function[39m
+2023-05-25 09:57:50:5750 [31merror[39m: [31muncaughtException: Identifier 'mailGun' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:4[39m
+[31mconst mailGun = require('nodemailer-mailgun-transport')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'mailGun' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 09:57:59:5759 [31merror[39m: [31muncaughtException: Cannot find module 'mailgun-transport'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'mailgun-transport'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:4:17)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-25 09:58:06:586 [31merror[39m: [31muncaughtException: Cannot find module 'mailgun-js'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'mailgun-js'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:4:17)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-25 09:58:28:5828 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 09:58:55:5855 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 09:59:07:597 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 09:59:53:5953 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 09:59:56:5956 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 09:59:59:5959 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:00:02:02 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:00:04:04 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:00:17:017 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:18:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:02:12:212 [31merror[39m: [31muncaughtException: Identifier 'mailgunAuth' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:15[39m
+[31mconst mailgunAuth = {[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'mailgunAuth' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 10:02:18:218 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:24:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:02:22:222 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:24:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:02:45:245 [31merror[39m: [31muncaughtException: apiKey value must be defined![39m
+[31mError: apiKey value must be defined![39m
+[31m    at new Mailgun (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:16:13)[39m
+[31m    at create (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mailgun-js\lib\mailgun.js:239:10)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:24:10)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+2023-05-25 10:02:52:252 [31merror[39m: [31muncaughtException: Unexpected token '{'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:16[39m
+[31m {[39m
+[31m ^[39m
+
+[31mSyntaxError: Unexpected token '{'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 10:03:00:30 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:19[39m
+[31m};[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 10:04:43:443 [31merror[39m: [31mdata is not defined[39m
+2023-05-25 10:22:22:2222 [31merror[39m: [31muncaughtException: Unexpected token '{'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:57[39m
+[31m            'h:X-Mailgun-Variables': JSON.{[39m
+[31m                                          ^[39m
+
+[31mSyntaxError: Unexpected token '{'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 10:22:26:2226 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:60[39m
+[31m            }[39m
+[31m            ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 10:25:52:2552 [31merror[39m: [31muncaughtException: Missing catch or finally after try[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:39[39m
+[31m            });[39m
+[31m            ^[39m
+
+[31mSyntaxError: Missing catch or finally after try[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:14:29:1429 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:20[39m
+[31m        this.from = `${} ${process.env.EMAIL_FROM}`;[39m
+[31m                       ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:14:37:1437 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:20[39m
+[31m        this.from = `${process.env.} ${process.env.EMAIL_FROM}`;[39m
+[31m                                   ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:15:24:1524 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\utils\emails.js:8[39m
+[31mCANST mailgunAuth = {[39m
+[31m      ^^^^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:6:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:17:08:178 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:79[39m
+[31m    } catch (error) {[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:23:16:2316 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:79[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:13:2613 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:19:2619 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:24:2624 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:27:2627 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:30:2630 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:37:2637 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:81[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:44:2644 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:82[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:48:2648 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:83[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:53:2653 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:83[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:26:55:2655 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:83[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:27:01:271 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:83[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:27:02:272 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:83[39m
+[31m        const resetUrl = `${req.protocol}://${req.get([39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:39:2839 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:29[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:40:2840 [31merror[39m: [31muncaughtException: Unexpected token ':'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:29[39m
+[31m    donation: [[39m
+[31m            ^[39m
+
+[31mSyntaxError: Unexpected token ':'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:43:2843 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:45:2845 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:48:2848 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:53:2853 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:32[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:28:55:2855 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    }[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:29:01:291 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:29:02:292 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:29:29:2929 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:33[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:31:56:3156 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\userModel.js:31[39m
+[31m    donation: [[39m
+[31m    ^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:34:48:3448 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:107[39m
+[31m      .digest("hex");[39m
+[31m                     [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:34:50:3450 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:109[39m
+[31m      [39m
+[31m      [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:35:49:3549 [31merror[39m: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:11:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+2023-05-25 11:35:55:3555 [31merror[39m: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:11:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+2023-05-25 11:36:05:365 [31merror[39m: [31muncaughtException: Unexpected token 'export'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:102[39m
+[31mexport.resetPassword = async (req, res, next) => {[39m
+[31m^^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'export'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 11:36:10:3610 [31merror[39m: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:11:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+2023-05-25 11:36:18:3618 [31merror[39m: [31muncaughtException: Route.get() requires a callback function but got a [object Undefined][39m
+[31mError: Route.get() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as get] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:11:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:5:19)[39m
+2023-05-25 12:29:30:2930 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:111[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:29:35:2935 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:111[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:30:14:3014 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:112[39m
+[31m    })[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:30:15:3015 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:112[39m
+[31m    })[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:30:40:3040 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:112[39m
+[31m    })[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:30:47:3047 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:112[39m
+[31m    })[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:32:53:3253 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:111[39m
+[31m        passwordResetExpiry: { $gte: }        [39m
+[31m                                     ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:33:06:336 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:111[39m
+[31m        passwordResetExpiry: { $lte: }        [39m
+[31m                                     ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:36:22:3622 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:116[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:36:24:3624 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:114[39m
+[31m    if(!)[39m
+[31m        ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:36:26:3626 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:116[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:36:28:3628 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:116[39m
+[31m}[39m
+[31m^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:39:52:3952 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:109[39m
+[31m    const user = User.findOne({[39m
+[31m    ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 12:45:46:4546 [31merror[39m: [31muncaughtException: Unexpected reserved word[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:125[39m
+[31m        await new Email(user, url).sendVerifiedPSWD();[39m
+[31m        ^^^^^[39m
+
+[31mSyntaxError: Unexpected reserved word[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 14:49:07:497 [31merror[39m: [31m/api/v2/resetpassword/10c523b355d34305a2036da4c09b9849de4489dc09bb25612c8947dfc4425af1 not found on this server[39m
+2023-05-25 14:49:21:4921 [31merror[39m: [31m/api/v2/resetpassword/10c523b355d34305a2036da4c09b9849de4489dc09bb25612c8947dfc4425af1 not found on this server[39m
+2023-05-25 14:49:34:4934 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-25 14:49:34:4934 [31merror[39m: [31m{[39m
+[31m  REASON: ReferenceError: crypto is not defined[39m
+[31m      at exports.resetPassword (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:105:25)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:144:13)[39m
+[31m      at Route.dispatch (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:114:3)[39m
+[31m      at Layer.handle [as handle_request] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m      at C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:284:15[39m
+[31m      at param (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:365:14)[39m
+[31m      at param (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:376:14)[39m
+[31m      at Function.process_params (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:421:3)[39m
+[31m      at next (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:280:10)[39m
+[31m}[39m
+2023-05-25 14:50:22:5022 [31merror[39m: [31muncaughtException: Cannot find module 'c'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module 'c'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:8:16)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-25 14:50:57:5057 [31merror[39m: [31mUser is not defined[39m
+2023-05-25 14:51:58:5158 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 14:53:23:5323 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 14:54:58:5458 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 15:00:44:044 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 15:03:01:31 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:112[39m
+[31m    .);[39m
+[31m     ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 15:03:27:327 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 15:09:44:944 [31merror[39m: [31muser.save is not a function[39m
+2023-05-25 15:12:28:1228 [31merror[39m: [31mExpired or Invalid Token! Please try again[39m
+2023-05-25 15:40:47:4047 [31merror[39m: [31muncaughtException: Identifier 'password' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:121[39m
+[31m        const password = req.body.password;[39m
+[31m              ^[39m
+
+[31mSyntaxError: Identifier 'password' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 15:41:15:4115 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:123[39m
+[31m        if()[39m
+[31m           ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 15:41:17:4117 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:123[39m
+[31m        if(!())[39m
+[31m             ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 15:42:20:4220 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:124[39m
+[31m            throw new appError('Password and throw new appError('Expired or Invalid Token! Please try again', 403)', 403)[39m
+[31m                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\authRouter.js:3:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-25 15:44:59:4459 [31merror[39m: [31m/api/v2/auth/login not found on this server[39m
