@@ -7,8 +7,8 @@ const donationSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    donor: {type: mongoose.Types.ObjectId, ref: 'donor'},
-    verified: {
+    donor_id: {type: mongoose.Types.ObjectId, ref: 'user'},
+    verified: {     //TODO: User can't update this
         type: String, 
         default: 'Pending'
     }

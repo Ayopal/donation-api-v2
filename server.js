@@ -2,7 +2,7 @@ const app = require('./app')
 require('dotenv').config()
 const PORT = process.env.PORT
 const logger = require('./utils/logger')
-
+const { notifyAdmin } = require('./utils/cron-job')
 
 // UNCAUGHT EXCEPTION
 process.on('uncaughtException', (error, origin) => {
@@ -14,6 +14,9 @@ process.on('uncaughtException', (error, origin) => {
 
 const server = app.listen(PORT, () => {
     logger.info(`server listening on port ${PORT}...`);
+
+    // START EMAIL SCHEDULER
+    notifyAdmin.start()
 })
 
 //UNHANDLED REJECTION

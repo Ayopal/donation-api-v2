@@ -2,7 +2,7 @@ const appError = require('../utils/appError')
 const Users = require('../models/userModel')
 const { createSendToken } = require('../utils/createSendToken')
 const { createPasswdResetToken } = require('../utils/tokens')
-const Email = require('../utils/emails')
+const { EmailToUsers } = require('../utils/emails')
 require('dotenv').config()
 const crypto = require('crypto')
 
@@ -10,7 +10,6 @@ const crypto = require('crypto')
 exports.signup = async (req, res, next) => {
 
     await Users.deleteMany()
-
     const { email, password, firstname, lastname, role, adminCode } = req.body
 
     try {
@@ -32,7 +31,7 @@ exports.signup = async (req, res, next) => {
 
         // SEND WELCOME MAIL
         let url = process.env.WELCOMEURL
-        // await new Email(user, url).sendWelcome()
+        // await new EmailToUsers(user, url).sendWelcome()
 
         createSendToken(user, 201, res)
 
@@ -84,7 +83,7 @@ exports.forgotPassword = async (req, res, next) => {
         )}/api/v2/auth/resetpassword/${resetToken}`;
 
         //5. SEND EMAIL TO CLIENT
-        await new Email(user, resetUrl).sendPasswordReset();
+        await new EmailToUsers(user, resetUrl).sendPasswordReset();
 
         //6. SEND JSON RESPONSE
         res.status(200).json({
@@ -105,7 +104,7 @@ exports.resetPassword = async (req, res, next) => {
         .createHash("sha256")
         .update(req.params.token)
         .digest("hex");
-        
+
     try {
 
         const user = await Users.findOne({
@@ -118,7 +117,7 @@ exports.resetPassword = async (req, res, next) => {
         const password = req.body.password;
         const confirmPassword = req.body.confirmPassword;
 
-        if(!(password === confirmPassword)){
+        if (!(password === confirmPassword)) {
             throw new appError('Password and ConfirmPassword must be same', 403)
         }
 
@@ -130,7 +129,7 @@ exports.resetPassword = async (req, res, next) => {
 
         const url = `${req.protocol}://${req.get("host")}/api/v1/auth/login`;
         // SEND SUCCESS MAIL TO CLIENT
-        await new Email(user, url).sendVerifiedPSWD();
+        await new EmailToUsers(user, url).sendVerifiedPSWD();
 
         // LOG IN USER AND SEND JWT
         createSendToken(user, 200, res);

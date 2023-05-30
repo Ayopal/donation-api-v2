@@ -9,7 +9,10 @@ const mailgunAuth = {
 
 const mg = mailGun(mailgunAuth)
 
-class Email {
+const DEV_ADMIN_MAIL = process.env.DEV_ADMIN_MAIL
+const PROD_ADMIN_MAIL = process.env.PROD_ADMIN_MAIL
+
+class EmailToUsers {
     constructor(user, url) {
         this.to = user.email;
         this.firstname = user.firstname
@@ -22,18 +25,17 @@ class Email {
         const data = {
             from: this.from,
             to: this.to,
-            subject: subject,
-            template: template,
+            subject,
+            template,
             'h:X-Mailgun-Variables': JSON.stringify({
                 firstname: this.firstname,
-                url: this.url
+                url: this.url,
             })
         }
 
         try {
             await mg.messages().send(data)
         } catch (error) {
-            console.log(error);
             throw new appError(error.message, 500)
         }
 
@@ -55,4 +57,38 @@ class Email {
     }
 }
 
-module.exports = Email
+class EmailToAdmin {
+    constructor(url) {
+        this.to = process.env.NODE_ENV === 'production' ? process.env.PROD_ADMIN_MAIL : process.env.DEV_ADMIN_MAIL
+        this.url = url
+        this.from = `${process.env.EMAIL_SENDER} ${process.env.EMAIL_FROM}`;
+    }
+
+    async send(template, subject) {
+
+        const data = {
+            from: this.from,
+            to: this.to,
+            subject,
+            template,
+            'h:X-Mailgun-Variables': JSON.stringify({
+                url: this.url,
+            })
+        }
+
+        try {
+            await mg.messages().send(data)
+        } catch (error) {
+            throw new appError(error.message, 500)
+        }
+
+    }
+
+    // NOTIFY ADMIN OF DONATION
+    async noftifyAdmin() {
+        await this.send('notify-admin', 'Some person(s) have made donation(s)')
+    }
+}
+
+
+module.exports = { EmailToUsers, EmailToAdmin }

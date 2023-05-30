@@ -27,12 +27,6 @@ const userSchema = new Schema({
     },
     passwordToken: String,
     passwordResetExpiry:  Date,
-    donation: [
-        {
-            type: mongoose.Types.ObjectId,
-            ref: 'donation'
-        },
-    ]
 })
 
 
