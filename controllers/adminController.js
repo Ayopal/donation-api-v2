@@ -3,11 +3,9 @@ const Breakdown = require('../models/breakdownModel')
 const Users = require('../models/userModel')
 const appError = require('../utils/appError')
 const { EmailToUsers } = require('../utils/emails')
-const appError = require('../utils/appError')
 
 
-
-//getBreakdown
+//GET BREAKDOWN
 exports.getBreakdown = async (req, res, next) => {
 
     try {
@@ -23,11 +21,10 @@ exports.getBreakdown = async (req, res, next) => {
     } catch (error) {
         return next(new appError(error.message, error.statusCode))
     }
-
 }
 
 
-//postDisbursed
+// POST DISBURSE
 exports.postDisbursed = async (req, res, next) => {
     try {
         let { amount } = req.body
@@ -36,6 +33,7 @@ exports.postDisbursed = async (req, res, next) => {
         const breakdown = await Breakdown.findOne()
 
         breakdown.disbursed += amount
+        breakdown.balance = breakdown.total - breakdown.disbursed
         await breakdown.save()
 
         res.status(201).json({
@@ -49,7 +47,7 @@ exports.postDisbursed = async (req, res, next) => {
 }
 
 
-//getMyDonations
+//GET ADMIN DONATIONS
 exports.getMyDonations = async (req, res, next) => {
     try {
 
@@ -61,7 +59,6 @@ exports.getMyDonations = async (req, res, next) => {
 
         res.status(200).json({
             status: 'success',
-            message: 'User donations gotten successfully!',
             data: {
                 donations
             }
@@ -74,7 +71,7 @@ exports.getMyDonations = async (req, res, next) => {
 }
 
 
-//verify
+//VERIFY DONATION
 exports.verify = async (req, res, next) => {
 
     try {
@@ -100,8 +97,7 @@ exports.verify = async (req, res, next) => {
     }
 }
 
-//reject - with note
-// send mail to user
+//REJECT DONATION
 exports.reject = async (req, res, next) => {
     try {
 
@@ -110,7 +106,7 @@ exports.reject = async (req, res, next) => {
         const donation_id = req.params.id
 
         const donation = await Donations.findById(donation_id)
-        const user = Users.findById(donation.donor_id)
+        const user = await Users.findById(donation.donor_id)
 
         user.note = note
 
@@ -119,7 +115,7 @@ exports.reject = async (req, res, next) => {
         await new EmailToUsers(user, url).sendRejectedDonation()
 
         res.status(201).json({
-            status: 'failed',
+            status: 'success',
             message: 'Donation rejected with note',
         })
 
@@ -129,15 +125,14 @@ exports.reject = async (req, res, next) => {
 }
 
 
-//getAllDonations
+//GET ALL DONATIONS
 exports.getAllDonations = async (req, res, next) => {
     try {
 
-        const donations = Donations.find()
+        const donations = await Donations.find()
 
         res.status(200).json({
             status: 'success',
-            message: 'All donations',
             data: {
                 donations
             }

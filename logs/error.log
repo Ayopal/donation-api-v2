@@ -5061,3 +5061,654 @@
 [31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\controllers\authController.js:3:29)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:37:32:3732 [31merror[39m: [31m/api/v2/admin/donations not found on this server[39m
+2023-05-31 08:38:10:3810 [31merror[39m: [31muncaughtException: Cannot find module './routes/ad'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31mError: Cannot find module './routes/ad'[39m
+[31mRequire stack:[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\app.js[39m
+[31m- C:\Users\user\Documents\Projects\donation-api-v2\server.js[39m
+[31m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:778:27)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+2023-05-31 08:38:13:3813 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:38:21:3821 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:38:23:3823 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:38:26:3826 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:38:53:3853 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:39:17:3917 [31merror[39m: [31muncaughtException: adminRoute is not defined[39m
+[31mReferenceError: adminRoute is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:26:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-31 08:39:20:3920 [31merror[39m: [31muncaughtException: adminRoute is not defined[39m
+[31mReferenceError: adminRoute is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:27:26)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\server.js:1:13)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-31 08:39:22:3922 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:39:29:3929 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:39:36:3936 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:18[39m
+[31mmodule.exports = [39m
+[31m                 [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:39:41:3941 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:39:52:3952 [31merror[39m: [31muncaughtException: Identifier 'appError' has already been declared[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:6[39m
+[31mconst appError = require('../utils/appError')[39m
+[31m      ^[39m
+
+[31mSyntaxError: Identifier 'appError' has already been declared[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:8:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:41:06:416 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:10:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:42:43:4243 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:10:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:43:58:4358 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:10:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:44:05:445 [31merror[39m: [31muncaughtException: Unexpected end of input[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:18[39m
+[31mmodule.exports = [39m
+[31m                 [39m
+
+[31mSyntaxError: Unexpected end of input[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:4:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:44:27:4427 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:46:25:4625 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:47:02:472 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:5[39m
+[31mconst authori[39m
+[31m      ^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:47:04:474 [31merror[39m: [31muncaughtException: Missing initializer in const declaration[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:5[39m
+[31mconst authorize [39m
+[31m      ^^^^^^^^^[39m
+
+[31mSyntaxError: Missing initializer in const declaration[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 08:48:00:480 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:48:52:4852 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 12:09:50:950 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 12:10:05:105 [31merror[39m: [31muncaughtException: Unexpected token 'if'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:13[39m
+[31m    if (!(user.role === 'admin')) {[39m
+[31m    ^^[39m
+
+[31mSyntaxError: Unexpected token 'if'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:4:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 12:10:11:1011 [31merror[39m: [31muncaughtException: Unexpected token '('[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:11[39m
+[31m    const('User orle')[39m
+[31m         ^[39m
+
+[31mSyntaxError: Unexpected token '('[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:4:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 12:10:57:1057 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 12:11:41:1141 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 12:11:41:1141 [31merror[39m: [31m{[39m
+[31m  REASON: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[31m      at Timeout.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)[39m
+[31m      at listOnTimeout (node:internal/timers:559:17)[39m
+[31m      at processTimers (node:internal/timers:502:7)[39m
+[31m}[39m
+2023-05-31 12:12:35:1235 [31merror[39m: [31mConverting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'MongoClient'[39m
+[31m    |     property 's' -> object with constructor 'Object'[39m
+[31m    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'[39m
+[31m    --- property 'client' closes the circle[39m
+2023-05-31 12:16:05:165 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:134[39m
+[31m        const donations = awi Donations.find()[39m
+[31m                              ^^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:9:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 13:35:29:3529 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as post] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:18:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+2023-05-31 13:38:35:3835 [31merror[39m: [31muncaughtException: val is not defined[39m
+[31mReferenceError: val is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\donationModel.js:14:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:1:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-31 13:38:37:3837 [31merror[39m: [31muncaughtException: value is not defined[39m
+[31mReferenceError: value is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\donationModel.js:14:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:1:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-31 13:38:40:3840 [31merror[39m: [31muncaughtException: values is not defined[39m
+[31mReferenceError: values is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\models\donationModel.js:14:9)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:1:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-05-31 13:39:05:395 [31merror[39m: [31muncaughtException: Unexpected token '}'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\models\donationModel.js:15[39m
+[31m    }[39m
+[31m    ^[39m
+
+[31mSyntaxError: Unexpected token '}'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\utils\createSendToken.js:1:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 14:15:57:1557 [31merror[39m: [31mNo User with that email[39m
+2023-05-31 14:18:41:1841 [31merror[39m: [31mExpired or Invalid Token! Please try again[39m
+2023-05-31 14:19:20:1920 [31merror[39m: [31mPassword and ConfirmPassword must be same[39m
+2023-05-31 14:27:46:2746 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 14:27:46:2746 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Account Not Found, Please Login again![39m
+[31m      at authorize (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39:11)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 14:58:22:5822 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 14:58:22:5822 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Account Not Found, Please Login again![39m
+[31m      at authorize (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39:11)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 14:59:39:5939 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39[39m
+[31m    throw nnew appError("Account Not Found, Please Login again!", 401);[39m
+[31m               ^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\userRouter.js:4:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 14:59:47:5947 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39[39m
+[31m    next(new appError("Account Not Found, Please Login again!", 401);[39m
+[31m                                                                   ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\userRouter.js:4:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 15:00:25:025 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 15:01:23:123 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:12[39m
+[31m  let token;[39m
+[31m  ^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\userRouter.js:4:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 15:02:29:229 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:46[39m
+[31m    return next(new appError(error.message, error.))[39m
+[31m                                                  ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\userRouter.js:4:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 15:02:49:249 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 20:15:26:1526 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 20:15:54:1554 [31merror[39m: [31mEmail or Password incorrect[39m
+2023-05-31 20:44:12:4412 [31merror[39m: [31muncaughtException: Unexpected token ';'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:43[39m
+[31m    req.user = currentUser.;[39m
+[31m                           ^[39m
+
+[31mSyntaxError: Unexpected token ';'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\userRouter.js:4:19)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 20:53:36:5336 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:12:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 20:53:39:5339 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:12:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 20:53:43:5343 [31merror[39m: [31muncaughtException: Router.use() requires a middleware function[39m
+[31mTypeError: Router.use() requires a middleware function[39m
+[31m    at Function.use (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:462:11)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:12:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 20:57:01:571 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 20:57:01:571 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Unauthorized[39m
+[31m      at allowAdmin (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:12:15)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 20:57:50:5750 [31merror[39m: [31muncaughtException: Unexpected token 'const'[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:8[39m
+[31m    const user_id = req.user[39m
+[31m    ^^^^^[39m
+
+[31mSyntaxError: Unexpected token 'const'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:4:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 20:59:16:5916 [31merror[39m: [31muncaughtException: missing ) after argument list[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:13[39m
+[31m            return next(new appError('Unauthorized', 401)[39m
+[31m                                                        ^[39m
+
+[31mSyntaxError: missing ) after argument list[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:4:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 21:00:37:037 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 21:01:33:133 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:05:41:541 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:07:34:734 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:08:48:848 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:08:49:849 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:08:58:858 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:09:45:945 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:13:23:1323 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:15:18:1518 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 21:28:22:2822 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-05-31 21:31:04:314 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-05-31 21:35:38:3538 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:41:05:415 [31merror[39m: [31mCannot read properties of null (reading 'total')[39m
+2023-05-31 21:55:19:5519 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:37[39m
+[31m        await breakdown.save()[39m
+[31m              ^^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:9:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 21:55:55:5555 [31merror[39m: [31muncaughtException: Unexpected identifier[39m
+[31mC:\Users\user\Documents\Projects\donation-api-v2\controllers\adminController.js:37[39m
+[31m        await breakdown.save()[39m
+[31m              ^^^^^^^^^[39m
+
+[31mSyntaxError: Unexpected identifier[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:9:5)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+2023-05-31 21:57:16:5716 [31merror[39m: [31m/api/v2/admin/disburse not found on this server[39m
+2023-05-31 22:17:55:1755 [31merror[39m: [31mto parameter is missing[39m
+2023-05-31 22:20:02:202 [31merror[39m: [31mto parameter is missing[39m

@@ -7,6 +7,7 @@ const { EmailToAdmin } = require('../utils/emails')
 exports.notifyAdmin = async (req, res, next) => {
 
     const donor_id = req.user
+
     const { amount, date } = req.body
 
     try {

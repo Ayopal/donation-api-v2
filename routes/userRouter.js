@@ -7,7 +7,6 @@ const {
     notifyAdmin,
 } = require('../controllers/userController')
 
-const Donations = require('../models/donationModel')
 
 
 router.use(authorize)

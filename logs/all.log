@@ -1824,3 +1824,398 @@
 2023-05-30 23:18:00:180 [32minfo[39m: [32mserver listening on port 4040...[39m
 2023-05-30 23:18:03:183 [32minfo[39m: [32mserver listening on port 4040...[39m
 2023-05-30 23:18:15:1815 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 08:35:21:3521 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:35:35:3535 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 08:37:32:3732 [31merror[39m: [31m/api/v2/admin/donations not found on this server[39m
+2023-05-31 08:37:32:3732 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 404 1555 - 9.892 ms[39m
+[35m[39m
+2023-05-31 08:38:07:387 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:44:10:4410 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:44:23:4423 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 08:44:27:4427 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:44:27:4427 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1546 - 12.305 ms[39m
+[35m[39m
+2023-05-31 08:45:41:4541 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 375 - 1518.970 ms[39m
+[35m[39m
+2023-05-31 08:46:25:4625 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:46:25:4625 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1546 - 3.765 ms[39m
+[35m[39m
+2023-05-31 08:47:11:4711 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:47:17:4717 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:47:23:4723 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:47:26:4726 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:47:33:4733 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:47:46:4746 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 08:48:00:480 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:48:00:480 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1194 - 300.809 ms[39m
+[35m[39m
+2023-05-31 08:48:17:4817 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:48:23:4823 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 08:48:36:4836 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 08:48:52:4852 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 08:48:52:4852 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1195 - 274.493 ms[39m
+[35m[39m
+2023-05-31 12:04:44:444 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:04:57:457 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:06:36:636 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:06:49:649 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:07:56:756 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:08:09:89 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:08:39:839 [35mhttp[39m: [35m::1 POST /api/v2/auth/login 201 375 - 840.972 ms[39m
+[35m[39m
+2023-05-31 12:09:50:950 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 12:09:50:950 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1194 - 268.965 ms[39m
+[35m[39m
+2023-05-31 12:10:23:1023 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:10:28:1028 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:10:34:1034 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:10:47:1047 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:10:57:1057 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 12:10:57:1057 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 1195 - 411.848 ms[39m
+[35m[39m
+2023-05-31 12:11:12:1112 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:11:20:1120 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:11:25:1125 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:11:28:1128 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:11:41:1141 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 12:11:41:1141 [31merror[39m: [31m{[39m
+[31m  REASON: MongooseError: Operation `users.findOne()` buffering timed out after 10000ms[39m
+[31m      at Timeout.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:185:23)[39m
+[31m      at listOnTimeout (node:internal/timers:559:17)[39m
+[31m      at processTimers (node:internal/timers:502:7)[39m
+[31m}[39m
+2023-05-31 12:11:41:1141 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:12:12:1212 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:12:15:1215 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 12:12:28:1228 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 12:12:35:1235 [31merror[39m: [31mConverting circular structure to JSON[39m
+[31m    --> starting at object with constructor 'MongoClient'[39m
+[31m    |     property 's' -> object with constructor 'Object'[39m
+[31m    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'[39m
+[31m    --- property 'client' closes the circle[39m
+2023-05-31 12:12:35:1235 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 500 2192 - 652.207 ms[39m
+[35m[39m
+2023-05-31 12:16:07:167 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:35:02:352 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:35:15:3515 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 13:35:36:3536 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:35:45:3545 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:35:54:3554 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:01:361 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:11:3611 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:19:3619 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:23:3623 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:26:3626 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:29:3629 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:32:3632 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:40:3640 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:36:53:3653 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 13:37:03:373 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 405 - 1084.626 ms[39m
+[35m[39m
+2023-05-31 13:38:26:3826 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:38:43:3843 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:38:56:3856 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 13:39:12:3912 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 13:39:25:3925 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 14:15:57:1557 [31merror[39m: [31mNo User with that email[39m
+2023-05-31 14:15:57:1557 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/forgotPassword 401 509 - 302.928 ms[39m
+[35m[39m
+2023-05-31 14:16:27:1627 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/forgotPassword 200 164 - 1952.620 ms[39m
+[35m[39m
+2023-05-31 14:18:41:1841 [31merror[39m: [31mExpired or Invalid Token! Please try again[39m
+2023-05-31 14:18:41:1841 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/resetpassword/fc6513c4ecd927d6bd0702f4e23e111a70b5186f6532ce29773a34c655b0810f 403 511 - 254.237 ms[39m
+[35m[39m
+2023-05-31 14:19:20:1920 [31merror[39m: [31mPassword and ConfirmPassword must be same[39m
+2023-05-31 14:19:20:1920 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/resetpassword/13ead9591bb6040f378ff9ce778372f2487e771b7b82ce5d7b8ccf871b3c5c1e 403 509 - 258.810 ms[39m
+[35m[39m
+2023-05-31 14:20:10:2010 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/resetpassword/13ead9591bb6040f378ff9ce778372f2487e771b7b82ce5d7b8ccf871b3c5c1e 200 423 - 2062.788 ms[39m
+[35m[39m
+2023-05-31 14:27:46:2746 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 14:27:46:2746 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Account Not Found, Please Login again![39m
+[31m      at authorize (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39:11)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 14:57:47:5747 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 14:57:59:5759 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 14:58:22:5822 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 14:58:22:5822 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Account Not Found, Please Login again![39m
+[31m      at authorize (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\authorize.js:39:11)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 14:59:51:5951 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 14:59:55:5955 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 14:59:59:5959 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:00:12:012 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 15:00:25:025 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 15:00:25:025 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 401 484 - 427.962 ms[39m
+[35m[39m
+2023-05-31 15:01:12:112 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:26:126 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:39:139 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:42:142 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:45:145 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:49:149 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:01:55:155 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:02:04:24 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:02:15:215 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:02:23:223 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:02:32:232 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 15:02:45:245 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 15:02:49:249 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 15:02:49:249 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 401 484 - 293.952 ms[39m
+[35m[39m
+2023-05-31 20:07:56:756 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:08:09:89 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:15:26:1526 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 20:15:26:1526 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 401 485 - 296.672 ms[39m
+[35m[39m
+2023-05-31 20:15:54:1554 [31merror[39m: [31mEmail or Password incorrect[39m
+2023-05-31 20:15:54:1554 [35mhttp[39m: [35m::1 POST /api/v2/auth/login 401 397 - 405.839 ms[39m
+[35m[39m
+2023-05-31 20:16:12:1612 [35mhttp[39m: [35m::1 POST /api/v2/auth/login 201 423 - 677.104 ms[39m
+[35m[39m
+2023-05-31 20:17:47:1747 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 544.013 ms[39m
+[35m[39m
+2023-05-31 20:18:49:1849 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:18:55:1855 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:19:01:191 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:19:03:193 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:19:16:1916 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:19:18:1918 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 4278.831 ms[39m
+[35m[39m
+2023-05-31 20:19:47:1947 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:19:50:1950 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:20:02:202 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:44:15:4415 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:44:17:4417 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:44:30:4430 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:45:40:4540 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 902.154 ms[39m
+[35m[39m
+2023-05-31 20:48:26:4826 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:48:30:4830 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:48:43:4843 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:49:10:4910 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:49:13:4913 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:49:26:4926 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:53:01:531 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 219 - 832.771 ms[39m
+[35m[39m
+2023-05-31 20:53:45:5345 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:53:58:5358 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:54:08:548 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 219 - 783.902 ms[39m
+[35m[39m
+2023-05-31 20:54:24:5424 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:54:37:5437 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:54:40:5440 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:54:53:5453 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:55:34:5534 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 355 - 955.347 ms[39m
+[35m[39m
+2023-05-31 20:57:01:571 [31merror[39m: [31mUNHANDLED REJECTION! 🔥 Shutting Down...[39m
+2023-05-31 20:57:01:571 [31merror[39m: [31m{[39m
+[31m  REASON: AppError: Unauthorized[39m
+[31m      at allowAdmin (C:\Users\user\Documents\Projects\donation-api-v2\middlewares\allowAdmin.js:12:15)[39m
+[31m      at processTicksAndRejections (node:internal/process/task_queues:96:5) {[39m
+[31m    statusCode: 401,[39m
+[31m    status: 'Fail',[39m
+[31m    isOperational: true[39m
+[31m  }[39m
+[31m}[39m
+2023-05-31 20:57:54:5754 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:07:587 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:14:5814 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:19:5819 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:23:5823 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:28:5828 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:36:5836 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:58:49:5849 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 20:59:18:5918 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 20:59:31:5931 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:00:00:00 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:00:13:013 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:00:37:037 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 21:00:37:037 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 434 - 538.065 ms[39m
+[35m[39m
+2023-05-31 21:01:33:133 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:01:33:133 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 484 - 254.058 ms[39m
+[35m[39m
+2023-05-31 21:03:42:342 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:03:56:356 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:05:12:512 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:05:18:518 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:05:29:529 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:05:41:541 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:05:41:541 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 484 - 12.463 ms[39m
+[35m[39m
+2023-05-31 21:05:42:542 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:05:54:554 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:05:59:559 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:06:07:67 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:06:09:69 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:06:22:622 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:06:35:635 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:06:50:650 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:07:34:734 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:07:34:734 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 484 - 17.322 ms[39m
+[35m[39m
+2023-05-31 21:07:45:745 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:05:85 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:10:810 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:12:812 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:20:820 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:23:823 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:30:830 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:08:47:847 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:08:48:848 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:08:48:848 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 500 558 - 7112.191 ms[39m
+[35m[39m
+2023-05-31 21:08:49:849 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:08:49:849 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 500 558 - 278.081 ms[39m
+[35m[39m
+2023-05-31 21:08:58:858 [31merror[39m: [31mCannot destructure property '_id' of '(intermediate value)' as it is null.[39m
+2023-05-31 21:08:58:858 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 500 558 - 264.439 ms[39m
+[35m[39m
+2023-05-31 21:09:19:919 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:09:28:928 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:09:31:931 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:09:45:945 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:09:45:945 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:09:45:945 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 484 - 4533.062 ms[39m
+[35m[39m
+2023-05-31 21:12:58:1258 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:13:10:1310 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:13:15:1315 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 524 - 932.163 ms[39m
+[35m[39m
+2023-05-31 21:13:23:1323 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:13:23:1323 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 485 - 271.626 ms[39m
+[35m[39m
+2023-05-31 21:14:23:1423 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 193 - 753.254 ms[39m
+[35m[39m
+2023-05-31 21:14:59:1459 [35mhttp[39m: [35m::1 POST /api/v2/auth/login 201 355 - 375.776 ms[39m
+[35m[39m
+2023-05-31 21:15:18:1518 [31merror[39m: [31mUnauthorized[39m
+2023-05-31 21:15:18:1518 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 401 435 - 511.125 ms[39m
+[35m[39m
+2023-05-31 21:15:28:1528 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 193 - 762.836 ms[39m
+[35m[39m
+2023-05-31 21:16:37:1637 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:16:50:1650 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:16:57:1657 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:17:10:1710 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:17:14:1714 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:17:27:1727 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:28:22:2822 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-05-31 21:28:22:2822 [35mhttp[39m: [35m::1 GET /api/v2/admin/my-donations 403 1602 - 6.665 ms[39m
+[35m[39m
+2023-05-31 21:28:35:2835 [35mhttp[39m: [35m::1 GET /api/v2/admin/my-donations 200 92 - 847.803 ms[39m
+[35m[39m
+2023-05-31 21:29:01:291 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:29:14:2914 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:31:04:314 [31merror[39m: [31mYou are not logged in, Please Login Again[39m
+2023-05-31 21:31:04:314 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 403 1601 - 8.523 ms[39m
+[35m[39m
+2023-05-31 21:31:18:3118 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 77 - 826.545 ms[39m
+[35m[39m
+2023-05-31 21:33:43:3343 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:33:56:3356 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:35:38:3538 [31merror[39m: [31mAccount Not Found, Please Login again![39m
+2023-05-31 21:35:38:3538 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 401 485 - 281.758 ms[39m
+[35m[39m
+2023-05-31 21:36:14:3614 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 858.294 ms[39m
+[35m[39m
+2023-05-31 21:36:23:3623 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 194 - 794.201 ms[39m
+[35m[39m
+2023-05-31 21:37:20:3720 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:37:33:3733 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:37:34:3734 [35mhttp[39m: [35m::1 POST /api/v2/auth/login 201 355 - 6313.858 ms[39m
+[35m[39m
+2023-05-31 21:38:35:3835 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 579.696 ms[39m
+[35m[39m
+2023-05-31 21:38:47:3847 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 345 - 782.216 ms[39m
+[35m[39m
+2023-05-31 21:39:15:3915 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 77 - 786.958 ms[39m
+[35m[39m
+2023-05-31 21:40:15:4015 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:40:28:4028 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:41:05:415 [31merror[39m: [31mCannot read properties of null (reading 'total')[39m
+2023-05-31 21:41:05:415 [35mhttp[39m: [35m::1 PATCH /api/v2/admin/verify/6477afbd5689d747732ea229 500 517 - 1134.531 ms[39m
+[35m[39m
+2023-05-31 21:46:10:4610 [35mhttp[39m: [35m::1 PATCH /api/v2/admin/verify/6477afbd5689d747732ea229 201 66 - 1359.265 ms[39m
+[35m[39m
+2023-05-31 21:46:50:4650 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 147 - 773.297 ms[39m
+[35m[39m
+2023-05-31 21:53:13:5313 [35mhttp[39m: [35m::1 POST /api/v2/admin/disburse 201 67 - 1055.500 ms[39m
+[35m[39m
+2023-05-31 21:54:15:5415 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 151 - 774.091 ms[39m
+[35m[39m
+2023-05-31 21:55:13:5513 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:31:5531 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:33:5533 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:39:5539 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:45:5545 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:52:5552 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:55:59:5559 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:56:12:5612 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:56:17:5617 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:56:20:5620 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:56:32:5632 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:56:54:5654 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 151 - 831.901 ms[39m
+[35m[39m
+2023-05-31 21:57:16:5716 [31merror[39m: [31m/api/v2/admin/disburse not found on this server[39m
+2023-05-31 21:57:16:5716 [35mhttp[39m: [35m::1 PATCH /api/v2/admin/disburse 404 1533 - 544.980 ms[39m
+[35m[39m
+2023-05-31 21:57:59:5759 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 21:58:12:5812 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 21:58:18:5818 [35mhttp[39m: [35m::1 PATCH /api/v2/admin/disburse 201 67 - 1091.401 ms[39m
+[35m[39m
+2023-05-31 21:58:26:5826 [35mhttp[39m: [35m::1 GET /api/v2/admin/breakdown 200 155 - 807.274 ms[39m
+[35m[39m
+2023-05-31 22:09:33:933 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 549.572 ms[39m
+[35m[39m
+2023-05-31 22:09:42:942 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 497 - 791.412 ms[39m
+[35m[39m
+2023-05-31 22:12:31:1231 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 671 - 914.710 ms[39m
+[35m[39m
+2023-05-31 22:13:18:1318 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 535.562 ms[39m
+[35m[39m
+2023-05-31 22:13:26:1326 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 648 - 804.201 ms[39m
+[35m[39m
+2023-05-31 22:14:30:1430 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:14:34:1434 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:14:39:1439 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:14:42:1442 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:14:50:1450 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:14:58:1458 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:15:11:1511 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 22:17:55:1755 [31merror[39m: [31mto parameter is missing[39m
+2023-05-31 22:17:55:1755 [35mhttp[39m: [35m::1 POST /api/v2/admin/reject/6477b86e29e7a99cbd03de9f 500 469 - 1693.253 ms[39m
+[35m[39m
+2023-05-31 22:19:21:1921 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:19:24:1924 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:19:35:1935 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:19:48:1948 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 22:20:02:202 [31merror[39m: [31mto parameter is missing[39m
+2023-05-31 22:20:03:203 [35mhttp[39m: [35m::1 POST /api/v2/admin/reject/6477b86e29e7a99cbd03de9f 500 468 - 1755.313 ms[39m
+[35m[39m
+2023-05-31 22:20:18:2018 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:20:30:2030 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 22:20:40:2040 [35mhttp[39m: [35m::1 POST /api/v2/admin/reject/6477b86e29e7a99cbd03de9f 201 57 - 2010.512 ms[39m
+[35m[39m
+2023-05-31 22:20:58:2058 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-05-31 22:21:11:2111 [32minfo[39m: [32mDB Connected![39m
+2023-05-31 22:21:59:2159 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 826 - 956.013 ms[39m
+[35m[39m
+2023-05-31 22:22:52:2252 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 544.836 ms[39m
+[35m[39m
+2023-05-31 22:23:05:235 [35mhttp[39m: [35m::1 GET /api/v2/admin/donations 200 799 - 808.598 ms[39m
+[35m[39m
+2023-05-31 22:23:39:2339 [35mhttp[39m: [35m::1 POST /api/v2/admin/reject/6477baacd73c4a4c152c9397 201 60 - 2729.150 ms[39m
+[35m[39m

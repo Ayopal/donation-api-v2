@@ -5,6 +5,7 @@ const httpLogger = require('./utils/httpLogger')
 
 const authRoute = require('./routes/authRouter')
 const userRoute = require('./routes/userRouter')
+const adminRoute = require('./routes/adminRoutes')
 
 const appError = require('./utils/appError')
 const globalErrorHandler = require('./controllers/errorController')
@@ -23,6 +24,7 @@ app.get('/', (req, res, next) => {
 // REGISTER ROUTES
 app.use('/api/v2/auth', authRoute)
 app.use('/api/v2/user', userRoute)
+app.use('/api/v2/admin', adminRoute)
 
 app.use('*', (req, res, next) => {
     return next(new appError(`${req.originalUrl} not found on this server`, 404));

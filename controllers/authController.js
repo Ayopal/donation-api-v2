@@ -9,7 +9,6 @@ const crypto = require('crypto')
 
 exports.signup = async (req, res, next) => {
 
-    await Users.deleteMany()
     const { email, password, firstname, lastname, role, adminCode } = req.body
 
     try {
