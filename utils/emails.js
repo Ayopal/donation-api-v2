@@ -18,6 +18,7 @@ class EmailToUsers {
         this.firstname = user.firstname
         this.url = url
         this.from = `${process.env.EMAIL_SENDER} ${process.env.EMAIL_FROM}`;
+        this.note = user.note ? user.note : undefined;
     }
 
     async send(template, subject) {
@@ -30,6 +31,7 @@ class EmailToUsers {
             'h:X-Mailgun-Variables': JSON.stringify({
                 firstname: this.firstname,
                 url: this.url,
+                note: this.note,
             })
         }
 
@@ -54,6 +56,10 @@ class EmailToUsers {
     // SEND SUCCESFUL PASSWORD RESET MAIL
     async sendVerifiedPSWD() {
         await this.send('verified-pswd', 'You have reset your password successfully!')
+    }
+
+    async sendRejectedDonation(){
+        await this.send('reject-donation', 'A message from Admin')
     }
 }
 

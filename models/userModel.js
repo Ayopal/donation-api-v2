@@ -25,8 +25,9 @@ const userSchema = new Schema({
         type: String,
         default: 'donor'
     },
+    note: String,
     passwordToken: String,
-    passwordResetExpiry:  Date,
+    passwordResetExpiry: Date,
 })
 
 

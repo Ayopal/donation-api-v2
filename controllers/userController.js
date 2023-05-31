@@ -4,22 +4,6 @@ const appError = require('../utils/appError')
 const { EmailToAdmin } = require('../utils/emails')
 
 
-exports.getUserDonations = async (req, res, next) => {
-
-    const userId = req.user
-    const user = await Donations.findById(userId).populate('donation')
-
-    console.log('User: ', user);
-}
-
-exports.getProfile = async (req, res, next) => {
-
-    const userId = req.user
-    const user = await Donations.findById(userId).populate('donation')
-
-    console.log('User: ', user);
-}
-
 exports.notifyAdmin = async (req, res, next) => {
 
     const donor_id = req.user
