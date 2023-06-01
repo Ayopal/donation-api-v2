@@ -5712,3 +5712,27 @@
 2023-05-31 21:57:16:5716 [31merror[39m: [31m/api/v2/admin/disburse not found on this server[39m
 2023-05-31 22:17:55:1755 [31merror[39m: [31mto parameter is missing[39m
 2023-05-31 22:20:02:202 [31merror[39m: [31mto parameter is missing[39m
+2023-06-01 10:59:11:5911 [31merror[39m: [31muncaughtException: Route.post() requires a callback function but got a [object Undefined][39m
+[31mError: Route.post() requires a callback function but got a [object Undefined][39m
+[31m    at Route.<computed> [as post] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\route.js:211:15)[39m
+[31m    at Function.proto.<computed> [as post] (C:\Users\user\Documents\Projects\donation-api-v2\node_modules\express\lib\router\index.js:521:19)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:19:8)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+2023-06-01 10:59:20:5920 [31merror[39m: [31muncaughtException: reject is not defined[39m
+[31mReferenceError: reject is not defined[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\routes\adminRoutes.js:19:28)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m

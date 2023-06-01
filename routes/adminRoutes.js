@@ -6,7 +6,7 @@ const authorize = require('../middlewares/authorize')
 
 const { getAllDonations, getMyDonations,
     getBreakdown, verify, postDisbursed,
-    reject
+    decline
 } = require('../controllers/adminController')
 
 router.use([authorize, allowAdmin])
@@ -16,6 +16,6 @@ router.get('/my-donations', getMyDonations)
 router.get('/breakdown', getBreakdown)
 router.patch('/verify/:id', verify)
 router.patch('/disburse', postDisbursed)
-router.post('/reject/:id', reject)
+router.post('/decline/:id', decline)
 
 module.exports = router

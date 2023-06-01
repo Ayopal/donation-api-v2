@@ -230,7 +230,7 @@ Donation API
 }
 ```
 ### Reject Donations
-- Route: api/v2/admin/verify/:donation-id
+- Route: api/v2/admin/decline/:donation-id
 - Method: POST
 - Body:
 ```
@@ -244,6 +244,6 @@ Donation API
 ```
 {
     "status": "success",
-    "message": "Donation rejected with note"
+    "message": "Donation decline with note"
 }
 ```

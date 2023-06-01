@@ -7,12 +7,13 @@ const donationSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    donor_id: {type: mongoose.Types.ObjectId, ref: 'user'},
-    verified: {     //TODO: User can't update this
-        type: String, 
+    donor_id: { type: mongoose.Types.ObjectId, ref: 'user' },
+    verified: {
+        type: String,
         default: 'pending',
+        enum: ['pending', 'verified', 'declined']
     }
-  
+
 })
 
 const donationModel = mongoose.model('donation', donationSchema)

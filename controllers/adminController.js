@@ -98,7 +98,7 @@ exports.verify = async (req, res, next) => {
 }
 
 //REJECT DONATION
-exports.reject = async (req, res, next) => {
+exports.decline = async (req, res, next) => {
     try {
 
         const { note } = req.body
@@ -116,7 +116,7 @@ exports.reject = async (req, res, next) => {
 
         res.status(201).json({
             status: 'success',
-            message: 'Donation rejected with note',
+            message: 'Donation declined with note',
         })
 
     } catch (error) {
