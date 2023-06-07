@@ -3,9 +3,9 @@ const bodyParser = require('body-parser')
 const app = express()
 const httpLogger = require('./utils/httpLogger')
 
-const authRoute = require('./routes/authRouter')
-const userRoute = require('./routes/userRouter')
-const adminRoute = require('./routes/adminRoutes')
+const authRouter = require('./routers/authRouter')
+const userRouter = require('./routers/userRouter')
+const adminRouter = require('./routers/adminRouter')
 
 const appError = require('./utils/appError')
 const globalErrorHandler = require('./controllers/errorController')
@@ -22,9 +22,9 @@ app.get('/', (req, res, next) => {
 })
 
 // REGISTER ROUTES
-app.use('/api/v2/auth', authRoute)
-app.use('/api/v2/user', userRoute)
-app.use('/api/v2/admin', adminRoute)
+app.use('/api/v2/auth', authRouter)
+app.use('/api/v2/user', userRouter)
+app.use('/api/v2/admin', adminRouter)
 
 app.use('*', (req, res, next) => {
     return next(new appError(`${req.originalUrl} not found on this server`, 404));
