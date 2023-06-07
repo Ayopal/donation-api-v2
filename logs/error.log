@@ -5736,3 +5736,4 @@
 [31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\donation-api-v2\app.js:8:20)[39m
 [31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
 [31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+2023-06-04 23:13:22:1322 [31merror[39m: [31m/favicon.ico not found on this server[39m

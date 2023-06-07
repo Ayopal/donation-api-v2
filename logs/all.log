@@ -2227,3 +2227,22 @@
 2023-06-01 10:58:59:5859 [32minfo[39m: [32mserver listening on port 4040...[39m
 2023-06-01 10:59:26:5926 [32minfo[39m: [32mserver listening on port 4040...[39m
 2023-06-01 10:59:39:5939 [32minfo[39m: [32mDB Connected![39m
+2023-06-01 11:06:08:68 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-06-01 11:06:21:621 [32minfo[39m: [32mDB Connected![39m
+2023-06-04 23:11:38:1138 [32minfo[39m: [32mserver listening on port 4040...[39m
+2023-06-04 23:11:51:1151 [32minfo[39m: [32mDB Connected![39m
+2023-06-04 23:13:22:1322 [35mhttp[39m: [35m::1 GET / 200 21 - 6.143 ms[39m
+[35m[39m
+2023-06-04 23:13:22:1322 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-06-04 23:13:22:1322 [35mhttp[39m: [35m::1 GET /favicon.ico 404 1533 - 4.190 ms[39m
+[35m[39m
+2023-06-04 23:16:55:1655 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 346 - 885.138 ms[39m
+[35m[39m
+2023-06-04 23:18:48:1848 [35mhttp[39m: [35m::1 POST /api/v2/auth/signup 201 979 - 2464.213 ms[39m
+[35m[39m
+2023-06-04 23:32:19:3219 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/forgotPassword 200 164 - 7266.193 ms[39m
+[35m[39m
+2023-06-04 23:33:51:3351 [35mhttp[39m: [35m::1 PATCH /api/v2/auth/resetpassword/02760a2ea873e07e04a383e8f63904bf39b232222f40060608ee820c00f7db57 200 1026 - 6865.653 ms[39m
+[35m[39m
+2023-06-04 23:36:18:3618 [35mhttp[39m: [35m::1 POST /api/v2/user/notify 200 93 - 548.077 ms[39m
+[35m[39m
