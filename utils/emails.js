@@ -58,7 +58,7 @@ class EmailToUsers {
         await this.send('verified-pswd', 'You have reset your password successfully!')
     }
 
-    async sendRejectedDonation(){
+    async sendDeclinedDonation(){
         await this.send('reject-donation', 'A message from Admin')
     }
 }

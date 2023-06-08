@@ -5,49 +5,10 @@ const appError = require('../utils/appError')
 const { EmailToUsers } = require('../utils/emails')
 
 
-//GET BREAKDOWN
-exports.getBreakdown = async (req, res, next) => {
 
-    try {
-        const breakdown = await Breakdown.findOne()
-
-        res.status(200).json({
-            status: 'success',
-            message: 'Donation Breakdown',
-            data: {
-                breakdown
-            }
-        })
-    } catch (error) {
-        return next(new appError(error.message, error.statusCode))
-    }
-}
-
-
-// POST DISBURSE
-exports.postDisbursed = async (req, res, next) => {
-    try {
-        let { amount } = req.body
-        amount = Number(amount)
-
-        const breakdown = await Breakdown.findOne()
-
-        breakdown.disbursed += amount
-        breakdown.balance = breakdown.total - breakdown.disbursed
-        await breakdown.save()
-
-        res.status(201).json({
-            status: 'success',
-            message: 'Disbursement updated successfully!'
-        })
-
-    } catch (error) {
-        return next(new appError(error.message, error.statusCode))
-    }
-}
-
-
-//GET ADMIN DONATIONS
+/** 
+ * GET MY DONATIONS
+*/
 exports.getMyDonations = async (req, res, next) => {
     try {
 
@@ -70,9 +31,10 @@ exports.getMyDonations = async (req, res, next) => {
     }
 }
 
-
-//VERIFY DONATION
-exports.verify = async (req, res, next) => {
+/** 
+ * VERIFY DONATION
+*/
+exports.verifyDonation = async (req, res, next) => {
 
     try {
 
@@ -97,8 +59,10 @@ exports.verify = async (req, res, next) => {
     }
 }
 
-//REJECT DONATION
-exports.decline = async (req, res, next) => {
+/** 
+ * REJECT DONATION
+*/
+exports.declineDonation = async (req, res, next) => {
     try {
 
         const { note } = req.body
@@ -108,11 +72,16 @@ exports.decline = async (req, res, next) => {
         const donation = await Donations.findById(donation_id)
         const user = await Users.findById(donation.donor_id)
 
+        donation.verified = 'declined'
+        await donation.save()
+
         user.note = note
 
         const url = `${req.protocol}://${req.get('host')}`
 
-        await new EmailToUsers(user, url).sendRejectedDonation()
+        if (process.env.NODE_ENV === 'production') {
+            await new EmailToUsers(user, url).sendDeclinedDonation()
+        }
 
         res.status(201).json({
             status: 'success',
@@ -124,12 +93,15 @@ exports.decline = async (req, res, next) => {
     }
 }
 
-
-//GET ALL DONATIONS
+/** 
+ * GET ALL DONATIONS
+*/
 exports.getAllDonations = async (req, res, next) => {
     try {
 
-        const donations = await Donations.find()
+        const donations = await Donations.find({
+            verified: 'verified'
+        })
 
         res.status(200).json({
             status: 'success',
