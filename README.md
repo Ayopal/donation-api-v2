@@ -141,6 +141,7 @@ Donation API
 ### Notify Admin
 - Route: api/v2/user/notify
 - Method: POST
+- Authorization: Bearer Token
 - Body: 
 ```
 {
@@ -156,11 +157,10 @@ Donation API
     "message": "Admin will be notified, and you will receive a response soon"
 }
 ```
-## Admin Routes
 ### Get All Donations
-- Route: api/v2/admin/donations
+- Route: api/v2/user/donations
 - Method: GET
-
+- Authorization: Bearer Token
 - Response:
 ```
 {
@@ -180,9 +180,9 @@ Donation API
 }
 ```
 ### Get My Donations
-- Route: api/v2/admin/my-donations
+- Route: api/v2/user/me/donations
 - Method: GET
-
+- Authorization: Bearer Token
 - Response:
 ```
 {
@@ -194,9 +194,9 @@ Donation API
 }
 ```
 ### Verify Donations
-- Route: api/v2/admin/verify/:donation-id
+- Route: api/v2/user/donations/verify/:donation-id
 - Method: PATCH
-
+- Authorization: Bearer Token
 - Response:
 ```
 {
@@ -204,17 +204,32 @@ Donation API
     "message": "Donation verification successful!"
 }
 ```
-### Disburse
-- Route: api/v2/admin/disburse
-- Method: PATCH
+### Reject Donations
+- Route: api/v2/user/donations/decline/:donation-id
+- Method: POST
+- Authorization: Bearer Token
 - Body:
 ```
-{
-    "amount": 20000
-}
+  {
+    "note": "Please correct the amount you specified in your donation"
+    }
 ```
 
 - Response:
+
+```
+{
+    "status": "success",
+    "message": "Donation declined with note"
+}
+```
+### Get Donations Breakdown
+- Route: api/v2/donations/breakdown
+- Method: GET
+- Authorization: Bearer Token
+
+- Response:
+
 ```
 {
     "status": "success",
@@ -229,21 +244,20 @@ Donation API
     }
 }
 ```
-### Reject Donations
-- Route: api/v2/admin/decline/:donation-id
-- Method: POST
+### Disburse
+- Route: api/v2/donations/breakdown/disburse
+- Method: PATCH
+- Authorization: Bearer Token
 - Body:
 ```
-  {
-    "note": "Please correct the amount you specified in your donation"
-    }
+{
+    "amount": 20000
+}
 ```
-
 - Response:
-
 ```
 {
     "status": "success",
-    "message": "Donation decline with note"
+    "message": "Disbursement updated successfully!"
 }
 ```
