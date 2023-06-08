@@ -10,11 +10,9 @@ Donation API
 - Signup (JWT in cookie)
 - Login (JWT in cookie)
 
-### Donors
+### Users
 - Notify Admin
 - See Own Donations
-
-### Admin
 - Get All donations
 - Verify Donations
 - Reject Donations with note
