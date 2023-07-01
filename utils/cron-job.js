@@ -19,6 +19,7 @@ exports.notifyAdmin = cron.schedule('0 23 * * *', async () => {  // RUN AT 23:00
         const url = `${req.protocol}://${req.get('host')}/admin`
 
         await new EmailToAdmin(url).noftifyAdmin()
+        return;
 
     } catch (error) {
         return next(new appError(error.message, error.statusCode))

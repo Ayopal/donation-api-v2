@@ -32,9 +32,7 @@ Donation API
     "email": "testing@gmail.com",
     "password": "testing",
     "firstname": "Testing",
-    "lastname": "Surname",
-    "role": "admin" || undefined,
-    "adminCode": adminCode || undefined
+    "lastname": "Surname"
 }
 ```
 - Response:

@@ -32,7 +32,7 @@ exports.createSendToken = async (user, statusCode, res) => {
     }
 
     res.status(statusCode).json({
-        status: "Success",
+        status: "success",
         data,
     });
 };

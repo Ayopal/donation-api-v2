@@ -13,7 +13,7 @@ exports.getBreakdown = async (req, res, next) => {
     try {
         const breakdown = await Breakdown.findOne()
 
-        res.status(200).json({
+        return res.status(200).json({
             status: 'success',
             message: 'Donation Breakdown',
             data: {
@@ -26,12 +26,7 @@ exports.getBreakdown = async (req, res, next) => {
 }
 
 
-/** Post Disburse
- * 
- * @param {*} req 
- * @param {*} res 
- * @param {*} next 
- * @returns 
+/* Post Disburse 
  */
 exports.postDisbursed = async (req, res, next) => {
     try {
@@ -44,7 +39,7 @@ exports.postDisbursed = async (req, res, next) => {
         breakdown.balance = breakdown.total - breakdown.disbursed
         await breakdown.save()
 
-        res.status(201).json({
+        return res.status(201).json({
             status: 'success',
             message: 'Disbursement updated successfully!'
         })

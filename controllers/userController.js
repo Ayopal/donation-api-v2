@@ -16,9 +16,9 @@ exports.notifyAdmin = async (req, res, next) => {
             amount, date, donor_id
         })
 
-        res.status(200).json({
+        return res.status(200).json({
             status: 'success',
-            message: 'Admin will be notified, and you will receive a response soon'
+            message: 'You will receive a response soon'
         })
 
     } catch (error) {

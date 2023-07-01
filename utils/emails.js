@@ -12,6 +12,9 @@ const mg = mailGun(mailgunAuth)
 const DEV_ADMIN_MAIL = process.env.DEV_ADMIN_MAIL
 const PROD_ADMIN_MAIL = process.env.PROD_ADMIN_MAIL
 
+/**
+ * Send Email To Users
+ */
 class EmailToUsers {
     constructor(user, url) {
         this.to = user.email;
@@ -36,7 +39,9 @@ class EmailToUsers {
         }
 
         try {
-            await mg.messages().send(data)
+            if (NODE_ENV === 'production') {
+                await mg.messages().send(data)
+            }
         } catch (error) {
             throw new appError(error.message, 500)
         }
@@ -58,11 +63,14 @@ class EmailToUsers {
         await this.send('verified-pswd', 'You have reset your password successfully!')
     }
 
-    async sendDeclinedDonation(){
+    async sendDeclinedDonation() {
         await this.send('reject-donation', 'A message from Admin')
     }
 }
 
+/**
+ * Send Email To Admin
+ */
 class EmailToAdmin {
     constructor(url) {
         this.to = process.env.NODE_ENV === 'production' ? process.env.PROD_ADMIN_MAIL : process.env.DEV_ADMIN_MAIL

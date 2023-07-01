@@ -18,7 +18,7 @@ exports.getMyDonations = async (req, res, next) => {
             donor_id: user_id
         })
 
-        res.status(200).json({
+        return res.status(200).json({
             status: 'success',
             data: {
                 donations
@@ -49,7 +49,7 @@ exports.verifyDonation = async (req, res, next) => {
         breakdown.total += donation.amount
         await breakdown.save()
 
-        res.status(201).json({
+        return res.status(201).json({
             status: 'success',
             message: 'Donation verification successful!',
         })
@@ -83,7 +83,7 @@ exports.declineDonation = async (req, res, next) => {
             await new EmailToUsers(user, url).sendDeclinedDonation()
         }
 
-        res.status(201).json({
+        return res.status(201).json({
             status: 'success',
             message: 'Donation declined with note',
         })
@@ -103,7 +103,7 @@ exports.getAllDonations = async (req, res, next) => {
             verified: 'verified'
         })
 
-        res.status(200).json({
+        return res.status(200).json({
             status: 'success',
             data: {
                 donations
