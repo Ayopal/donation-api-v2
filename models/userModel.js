@@ -2,16 +2,20 @@ const mongoose = require('mongoose')
 const { Schema } = mongoose
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const validator = require('validator')
+const appError = require('../utils/appError')
 
 const userSchema = new Schema({
     email: {
         type: String,
         required: [true, 'Email is required!'],
-        unique: [true, 'Email already exist!']
+        unique: [true, 'Email already exist!'],
+        validate: value => {
+            if (!validator.isEmail(value)) throw new appError(`Invalid Email address`, 400)
+        }
     },
     password: {
-        type: String,
-        required: [true, 'Password is required!']
+        type: String
     },
     firstname: {
         type: String,
@@ -26,6 +30,9 @@ const userSchema = new Schema({
         default: 'donor',
         enum: ['donor', 'admin']
     },
+    googleId: {
+        type: String
+    },
     note: String,
     passwordToken: String,
     passwordResetExpiry: Date,
@@ -33,7 +40,8 @@ const userSchema = new Schema({
 
 
 userSchema.pre('save', async function (next) {
-    this.password = await bcrypt.hash(this.password, 10)
+    if (this.password)
+        this.password = await bcrypt.hash(this.password, 10)
     next()
 })
 

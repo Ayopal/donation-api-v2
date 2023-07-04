@@ -3,18 +3,18 @@ require('dotenv').config()
 const PORT = process.env.PORT
 const logger = require('./utils/logger')
 const { notifyAdmin } = require('./utils/cron-job')
+const Cache = require('./configs/redis')
 
 // UNCAUGHT EXCEPTION
 process.on('uncaughtException', (error, origin) => {
     logger.error("UNCAUGHT EXCEPTION! 🔥 Shutting Down...");
-    logger.error(err.name, err.message);
+    logger.error(error.name, error.message);
     process.exit(1);
 })
 
-
 const server = app.listen(PORT, () => {
+    Cache.connect()
     logger.info(`server listening on port ${PORT}...`);
-
     // START EMAIL SCHEDULER
     notifyAdmin.start()
 })

@@ -1,7 +1,14 @@
 const express = require('express')
-const bodyParser = require('body-parser')
 const app = express()
+
+require('./configs/OAuth')
+require('dotenv').config()
+
+const bodyParser = require('body-parser')
 const httpLogger = require('./utils/httpLogger')
+const rateLimiter = require('./configs/rateLimiter')
+const session = require('express-session')
+const MongoStore = require('connect-mongo')
 
 const authRouter = require('./routers/authRouter')
 const userRouter = require('./routers/userRouter')
@@ -11,15 +18,29 @@ const appError = require('./utils/appError')
 const globalErrorHandler = require('./controllers/errorController')
 require('./models/db').init()
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
-app.use(httpLogger)
-
-app.get('/', (req, res, next) => {
-    return res.status(200).json({
-        message: 'Welcome'
+// USE SESSION
+app.use(
+    session({
+        secret: process.env.SESSION_SECRET,
+        resave: false,
+        saveUninitialized: false,
+        store: MongoStore.create({
+            mongoUrl: process.env.DEV_MONGO_URL || process.env.MONGO_URL,
+            collectionName: 'sessions'
+        })
     })
-})
+)
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(httpLogger)
+app.use(rateLimiter)
+
+app.get("/", (req, res) => {
+    return res.send(
+        "Welcome to the CACSA-UI! \n <a href='/api/v2/auth/google'>Continue with Google</a>"
+    );
+});
 
 // REGISTER ROUTES
 app.use('/api/v2/auth', authRouter)

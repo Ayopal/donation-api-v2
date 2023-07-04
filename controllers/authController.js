@@ -140,3 +140,25 @@ exports.resetPassword = async (req, res, next) => {
         return next(new appError(error.message, error.statusCode))
     }
 }
+
+exports.socialAuth = async (req, res, next) => {
+
+    // OBTAIN USER DETAILS FROM SESSION
+    const {
+        user: { user, token, oldUser }
+    } = req.session.passport;
+
+    const cookieOptions = {
+        expires: new Date(Date.now() + 1 * 60 * 60 * 1000),
+        httpOnly: true,
+    };
+    if (process.env.NODE_ENV === "production") cookieOptions.secure = true;
+
+    // Send token to client
+    await res.cookie("jwt", token, cookieOptions);
+
+    return res.status(200).json({
+        status: 'success',
+        user, oldUser
+    })
+}
