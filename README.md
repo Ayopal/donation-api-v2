@@ -31,6 +31,7 @@ Donation API
 {
     "email": "testing@gmail.com",
     "password": "testing",
+    "confirmPassword": "testing",
     "firstname": "Testing",
     "lastname": "Surname"
 }

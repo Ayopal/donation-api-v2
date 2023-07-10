@@ -11,12 +11,16 @@ const crypto = require('crypto')
  */
 exports.signup = async (req, res, next) => {
 
-    const { email, password, firstname, lastname } = req.body
+    const { email, password, confirmPassword, firstname, lastname } = req.body
 
     try {
+        
+        if(!(password === confirmPassword)){
+            throw new appError('Password and Confirm Password must be same', 400)
+        }
 
-        if (!(email && password && firstname && lastname)) {
-            throw new appError('Please provide full sign up details', 401)
+        if (!(email && password && confirmPassword && firstname && lastname)) {
+            throw new appError('Please provide full sign up details', 400)
         }
 
         const oldUser = await Users.findOne({ email })

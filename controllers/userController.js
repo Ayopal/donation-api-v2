@@ -1,9 +1,9 @@
 const Donations = require('../models/donationModel')
-const Users = require('../models/userModel')
 const appError = require('../utils/appError')
-const { EmailToAdmin } = require('../utils/emails')
 
-
+/**
+ * NOTIFY ADMIN
+ */
 exports.notifyAdmin = async (req, res, next) => {
 
     const donor_id = req.user
