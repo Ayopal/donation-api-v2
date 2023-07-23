@@ -4,6 +4,7 @@ const app = express()
 require('./configs/OAuth')
 require('dotenv').config()
 
+const cors = require('cors')
 const bodyParser = require('body-parser')
 const httpLogger = require('./utils/httpLogger')
 const rateLimiter = require('./configs/rateLimiter')
@@ -30,6 +31,15 @@ app.use(
         })
     })
 )
+
+app.use(
+    cors({
+        credentials: true,
+        origin: [
+            'http://localhost:5173'
+        ]
+    })
+);
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
